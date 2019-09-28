@@ -9,5 +9,7 @@ namespace Cesar.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Cesar.Models.Fairy> Fairies { get; set; }
     }
 }
